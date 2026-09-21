@@ -1,5 +1,4 @@
 MatPBRBasic {
- BCRMap "{E3ADE7334881A099}Assets/ESU/Sov_Equipment/OZK_Suit/Data/ozk_suit_hood_BCR.edds"
- OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
- NMOMap "{DB755CA191F6F207}Assets/ESU/Sov_Equipment/OZK_Suit/Data/ozk_suit_hood_NMO.edds"
+AllowUserAlphaBias 1
+DisableUserAlphaInShadow 1
 }
