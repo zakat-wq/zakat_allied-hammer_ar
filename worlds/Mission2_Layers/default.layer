@@ -1,0 +1,70 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 3608.027 340.669 3701.209
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3627.74 341.379 3681.728
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A5ED80EC9F3A01C}" {
+     m_sWeatherPresetName "Cloudy"
+    }
+   }
+   m_bFogOverride 1
+   m_fFogAmount 0.596
+   m_fFogHeightDensity 1
+   m_bDateOverride 1
+   m_iDay 25
+   m_iMonth 7
+  }
+ }
+ coords 98.4 299.353 3123.328
+ m_iFreezeTime 300000
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Вооружённые силы Национальной Народной армии понесли критические потери"
+    m_sFactionKey "NVA"
+    m_iThreshold 5
+   }
+  }
+  coords 1364.791 372.018 119.896
+ }
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Вооружённые силы Федеративной Республики Германия понесли критические потери"
+    m_sFactionKey "BW"
+    m_iThreshold 5
+   }
+  }
+  coords 1364.073 372.018 134.113
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_iSeconds 4800
+  }
+ }
+ coords 118.707 299.955 3143.579
+}
+GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
+ components {
+  LL_TriggerDestroy "{69BD22C391CCC3CE}" {
+   m_sMessage "Цистерна уничтожена"
+   m_aTargets {
+    LL_TriggerDestroyTarget "{69CD1D0DD20331CF}" {
+     m_sEntityName "tanker_NVA"
+     m_sDisplayName "Цистерна"
+    }
+   }
+  }
+ }
+ coords 100.567 299.509 3129.131
+}

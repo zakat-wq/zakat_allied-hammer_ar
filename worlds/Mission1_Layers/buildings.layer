@@ -1,0 +1,118 @@
+$grp GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
+ {
+  coords 1587.008 39.688 1270.185
+  angles 0 -177.632 0
+ }
+ {
+  coords 1534.931 39.688 1272.719
+  angles 0 -177.632 0
+ }
+}
+$grp SCR_DestructibleEntity : "{4BBF43FE811D4C7A}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V2.et" {
+ {
+  coords 10.165 -0.006 1446.854
+ }
+ {
+  coords 7.47 -0.061 1446.896
+ }
+ {
+  coords 4.791 -0.108 1446.898
+ }
+ {
+  coords 2.101 -0.147 1446.924
+ }
+ {
+  coords -0.566 39.822 1446.937
+ }
+ {
+  coords 10.19 -0.087 1465.158
+  angles 0 3.039 0
+ }
+ {
+  coords 7.492 -0.171 1465.325
+  angles 0 3.039 0
+ }
+ {
+  coords 4.786 -0.256 1465.423
+  angles 0 3.039 0
+ }
+ {
+  coords 2.101 -0.34 1465.509
+  angles 0 3.039 0
+ }
+ {
+  coords -0.573 39.657 1465.637
+  angles 0 3.039 0
+ }
+ {
+  coords 2045.137 -0.134 1282.101
+  angles 0 177.639 0
+ }
+ {
+  coords 2047.814 -0.174 1282.221
+  angles 0 177.639 0
+ }
+ {
+  coords 2047.997 -0.277 1300.376
+  angles 0 177.639 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{51453500F5727B57}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_green.et" {
+ coords 663.197 0 1692.631
+ angles 0 12.156 0
+}
+$grp GenericEntity : "{70E6C95F5372C9F8}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_US_01_20ft_Empty.et" {
+ {
+  coords 642.213 35.719 1702.353
+ }
+ {
+  coords 645.161 35.719 1702.312
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ Flag1 {
+  coords 1505.074 51.127 1305.844
+ }
+ Flag2 {
+  coords 682.878 39.873 1663.391
+ }
+ Flag3 {
+  coords 294.319 53.018 956.571
+ }
+ Flag5 {
+  coords 1464.732 50.244 1936.304
+ }
+}
+$grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
+ {
+  coords 1997.926 -0.004 1277.677
+ }
+ {
+  coords 1980.363 1.449 1273.235
+  angles 0 -104.829 0
+ }
+ {
+  coords 1065.18 0.505 1350.27
+  angles 0 18.912 0
+ }
+ {
+  coords 1047.864 0.629 1351.501
+  angles 0 -31.405 0
+ }
+ {
+  coords 468.896 0.063 1410.191
+  angles 0 33.255 0
+ }
+ {
+  coords 450.439 0.348 1412.909
+  angles 0 -26.467 0
+ }
+ {
+  coords 77.252 0.295 1442.794
+  angles 0 20.19 0
+ }
+ {
+  coords 58.788 0.439 1443.626
+  angles 0 -32.874 0
+ }
+}

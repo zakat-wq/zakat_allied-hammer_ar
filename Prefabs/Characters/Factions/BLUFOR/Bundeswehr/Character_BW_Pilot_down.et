@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{EF31FD5C3C47CA3C}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Bundeswehr Hubschrauberführer"
+    IconSetName "EditableEntity_Character_Helicopter_Pilot"
+    m_Image "{C7F8C61B4F83A546}UI/Groups/4_BCR.edds"
+    m_aAutoLabels {
+     SIZE_M TRAIT_HELI_CREW
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{76BBE319BD647753}Prefabs/Weapons/Rifles/ARY_UZI/ARY_Rifle_Uzi.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{22AAFF4F950C69BD}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_BRD.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{2E35AC876DD6849D}Prefabs/Characters/Footwear/CombatBoots_DE_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{C0640C5E697D29A3}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/GSG9_Gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Jacket/Suit_Pilot_BRD.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694AADE48C21C430}" {
+     TargetStorage "Jacket/Suit_Pilot_BRD.et"
+     PrefabsToSpawn {
+      "{E15BF0E5D28C38A4}Prefabs/Weapons/Magazines/ARY_Magazine_9x19_UZI_25rnd_Ball_Black.et" "{E15BF0E5D28C38A4}Prefabs/Weapons/Magazines/ARY_Magazine_9x19_UZI_25rnd_Ball_Black.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 -10.665 0
+}

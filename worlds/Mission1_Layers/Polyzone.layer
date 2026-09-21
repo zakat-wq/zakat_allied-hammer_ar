@@ -1,0 +1,184 @@
+$grp PolylineShapeEntity {
+ tr3 {
+  components {
+   LL_MapZoneComponent "{69CACB7351EA39DA}" {
+    m_FillColor 0.687 0.258 0.258 0.275
+    m_OutlineColor 0.502 0 0 1
+    m_aVisibleForFactions {
+     "BW"
+     "NVA"
+    }
+   }
+   LL_StatZoneComponent "{6A60B3495C97123B}" {
+   }
+  }
+  coords 1633.682 39.266 1243.14
+  Points {
+   ShapePoint "{6985651FA6829DD0}" {
+    Position 0.53 -0.063 -0.382
+   }
+   ShapePoint "{6985651FA68271F2}" {
+    Position -62.821 0.183 -0.409
+   }
+   ShapePoint "{6985651F89286666}" {
+    Position -107.199 0.137 1.521
+   }
+   ShapePoint "{6985651F8E662576}" {
+    Position -160.234 0.55 4.795
+   }
+   ShapePoint "{6985651FF8DDCAD3}" {
+    Position -154.588 -0.055 116.203
+   }
+   ShapePoint "{6985651FFF2A4609}" {
+    Position -47.765 0.453 113.797
+   }
+   ShapePoint "{6985651FE8C45CAE}" {
+    Position 0.315 0.287 110.248
+   }
+   ShapePoint "{6985651FEEA22AFE}" {
+    Position 1.515 0.341 64.366
+   }
+   ShapePoint "{6985651F3FEFD1AC}" {
+    Position 2.319 0.171 43.153
+   }
+   ShapePoint "{6985651F32D02040}" {
+    Position -0.03 0.053 1.195
+   }
+  }
+  IsClosed 1
+ }
+ tr4 {
+  components {
+   LL_MapZoneComponent "{69CACB70B1B266CE}" {
+    m_FillColor 0.687 0.258 0.258 0.275
+    m_OutlineColor 0.502 0 0 1
+    m_aVisibleForFactions {
+     "BW"
+     "NVA"
+    }
+   }
+   LL_StatZoneComponent "{6A60B3495F9488B0}" {
+   }
+  }
+  coords 590.994 35.648 1591.754
+  Points {
+   ShapePoint "{6985651E17DFD7E0}" {
+    Position -0.53 0.018 0.029
+   }
+   ShapePoint "{6985651E17DFBC44}" {
+    Position 69.098 0.166 -3.079
+   }
+   ShapePoint "{6985651E7E813754}" {
+    Position 111.86 0.788 16.432
+   }
+   ShapePoint "{6985651E7132480D}" {
+    Position 207.932 -0.369 19.756
+   }
+   ShapePoint "{6985651E6AED5EC6}" {
+    Position 210.845 0.758 95.613
+   }
+   ShapePoint "{6985651E61215F92}" {
+    Position 120.034 0.633 103.163
+   }
+   ShapePoint "{6985651E63F91FEB}" {
+    Position 66.865 0.036 115.487
+   }
+   ShapePoint "{6985651E6522692D}" {
+    Position 18.433 0.071 139.043
+   }
+   ShapePoint "{6985651E5813D60C}" {
+    Position 0.706 -0.124 4.412
+   }
+  }
+  IsClosed 1
+ }
+ tr1 {
+  components {
+   LL_MapZoneComponent "{69CACB7310116AA9}" {
+    m_FillColor 0.687 0.258 0.258 0.275
+    m_OutlineColor 0.502 0 0 1
+    m_aVisibleForFactions {
+     "BW"
+     "NVA"
+    }
+   }
+   LL_StatZoneComponent "{6A60B3495701D725}" {
+   }
+  }
+  coords 1500.195 35.562 1870.211
+  Points {
+   ShapePoint "{6985651DB7889A50}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6985651DB78AF873}" {
+    Position -124.56 -0.693 1.577
+   }
+   ShapePoint "{6985651D984FC112}" {
+    Position -149.429 -0.917 -4.734
+   }
+   ShapePoint "{6985651D9B76AF7F}" {
+    Position -247.249 -0.872 -4.26
+   }
+   ShapePoint "{6985651D9F04A39B}" {
+    Position -249.87 -1.406 81.841
+   }
+   ShapePoint "{6985651D915635B6}" {
+    Position -247.657 -1.406 156.464
+   }
+   ShapePoint "{6985651D950EA4D9}" {
+    Position -114.875 -0.531 158.414
+   }
+   ShapePoint "{6985651D96E20EE7}" {
+    Position -1.021 -0.531 155.029
+   }
+   ShapePoint "{6985651D8A2972CA}" {
+    Position -1.578 -0.791 97.576
+   }
+   ShapePoint "{6985651D8CA153C4}" {
+    Position -0.236 -0.097 3.871
+   }
+  }
+  IsClosed 1
+ }
+ tr2 {
+  components {
+   LL_MapZoneComponent "{6A66691994B1E7B5}" {
+    m_FillColor 0.687 0.258 0.258 0.275
+    m_OutlineColor 0.502 0 0 1
+   }
+   LL_StatZoneComponent "{6A666919F245A7A7}" {
+   }
+  }
+  coords 131.397 47.616 930.349
+  Points {
+   ShapePoint "{6A666919B6AEF4D9}" {
+    Position -2.004 -0.137 -4.814
+   }
+   ShapePoint "{6A666919B6AEB0F5}" {
+    Position 280.773 -3.266 -3.806
+   }
+   ShapePoint "{6A666919AE0AF4CC}" {
+    Position 283.604 -3.053 78.692
+   }
+   ShapePoint "{6A666919AF458BE8}" {
+    Position 215.508 -4.023 78.628
+   }
+   ShapePoint "{6A666919A1582807}" {
+    Position 170.446 -4.381 123.314
+   }
+   ShapePoint "{6A666919A27919F7}" {
+    Position 122.111 -3.788 130.641
+   }
+   ShapePoint "{6A666919A33416D3}" {
+    Position 46.046 -2.241 111.111
+   }
+   ShapePoint "{6A66691998392055}" {
+    Position 22.705 -1.345 64.261
+   }
+   ShapePoint "{6A666919993B160B}" {
+    Position -0.874 -0.022 6.982
+   }
+  }
+  IsClosed 1
+ }
+}

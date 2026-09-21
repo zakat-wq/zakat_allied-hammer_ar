@@ -1,0 +1,22 @@
+GameProject {
+ ID "Operation Allied Hammer"
+ GUID "6984BC9FA94123C8"
+ TITLE "Operation Allied Hammer"
+ Dependencies {
+  "58D0FB3206B6F859" "6956D29FDCCCBBC4" "69474665342E66EF" "66C258D897075778" "6946021B7234447F" "DEADC0DE00000007" "64A51967EC407267" "699319AAA5BFC57F" "656514EAA451A2B2" "60530B5164D03D65" "" "69FF2C2B633BBC25" "59674C21AA886D57" "59673B6FBB95459F" "68996556700D5CA1"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,669 @@
+$grp GenericEntity {
+ {
+  coords 679.729 37.375 1393.773
+  angles 0 -177.396 0
+ }
+ {
+  coords 664.193 35.718 1657.014
+  angles 0 -169.706 0
+ }
+ {
+  coords 666.276 35.718 1682.437
+  angles 0 7.531 0
+ }
+ {
+  coords 634.844 35.719 1661.021
+  angles 0 -169.706 0
+ }
+ {
+  coords 656.769 35.718 1658.114
+  angles 0 -171.815 0
+ }
+ {
+  coords 1485.443 39.75 1272.545
+  angles 0 178.586 0
+ }
+ {
+  coords 1497.104 39.718 1272.479
+  angles 0 178.586 0
+ }
+ {
+  coords 649.247 35.719 1658.766
+  angles 0 -171.085 0
+ }
+}
+Vehicle M923A1_covered_PZG_GER1 : "{2F4496DBB6BF8196}Prefabs/Vehicles/Wheeled/M923A1/M923A1 covered PZG GER.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "bws4"
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
+ }
+ coords 652.318 35.718 1668.514
+ angles 0 7.529 0
+}
+$grp Vehicle : "{40CC95401F931558}Prefabs/Vehicles/Wheeled/M923A1/M923A1 transpo 1 PZG GER.et" {
+ M923A1_transpo_1_PZG_GER1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws2"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 673.458 35.719 1665.589
+  angles 0 4.371 0
+ }
+ M923A1_transpo_1_PZG_GER2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "PzAbwTrupp"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{698696C95426C8D9}" {
+      SlotTemplate InventoryStorageSlot showel {
+       Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 637.244 35.718 1671.773
+  angles 0 8.399 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD16491CCBB"
+    coords 0 2.08 1
+   }
+   GenericEntity {
+    ID "6958C9F2DD728FFD"
+    coords 0 0 0.002
+   }
+  }
+ }
+}
+$grp Vehicle : "{581545C0454283F5}Prefabs/Vehicles/Wheeled/S105/S105_green_BGS.et" {
+ S105_green_BGS1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs1"
+   }
+  }
+  coords 671.5 37.375 1394.876
+  angles 0 5.068 0
+ }
+ S105_green_BGS2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs1"
+   }
+  }
+  coords 687.166 37.375 1393.465
+  angles 0 5.676 0
+ }
+ S105_green_BGS3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs1"
+   }
+  }
+  coords 691.314 37.375 1392.726
+  angles 0 5.927 0
+ }
+ S105_green_BGS4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs3"
+   }
+  }
+  coords 1492.156 39.719 1277.605
+  angles 0 88.629 0
+ }
+ S105_green_BGS5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs2"
+   }
+  }
+  coords 1497.969 39.719 1277.746
+  angles 0 88.629 0
+ }
+ S105_green_BGS6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs2"
+   }
+  }
+  coords 1504.201 39.719 1277.716
+  angles 0 88.629 0
+ }
+ S105_green_BGS7 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bgs3"
+   }
+  }
+  coords 1485.733 39.719 1277.558
+  angles 0 88.629 0
+ }
+}
+$grp SCR_AIGroup : "{59356B49E360D424}Prefabs/Groups/BLUFOR/Group_BW_Squad.et" {
+ bws1 {
+  components {
+   LL_GroupCallsign "{69CACB728A45CBAD}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 666.9 35.719 1683.472
+  angles 0 -167.81 0
+  m_aUnitPrefabSlots {
+   "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
+   "{25AAB149D185C0EB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SR.et"
+   "{5CD7F354E0BAD549}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_RTO.et"
+   "{7D9BC6C28A0F2F07}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Medic.et"
+   "{672D72B4E8DD4A82}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_MG.et"
+   "{0AF3CAD0EC9131CF}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AMG.et"
+   "{ED92C56FFF1B403D}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AT.et"
+   "{804C7D0BFB573B70}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AAT.et"
+   "{B1ADC2BBD8B0C269}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sharpshooter.et"
+  }
+ }
+ PzAbwTrupp {
+  components {
+   LL_GroupCallsign "{69CACB745DF9BB42}" {
+    m_iCompany 4
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Bundeswehr PzAbw-Trupp"
+     m_aAutoLabels {
+      GROUPSIZE_MEDIUM
+      GROUPTYPE_INFANTRY
+     }
+    }
+   }
+  }
+  coords 634.643 35.719 1659.782
+  angles 0 5.889 0
+  m_aUnitPrefabSlots {
+   "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
+   "{5CD7F354E0BAD549}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_RTO.et"
+   "{7D9BC6C28A0F2F07}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Medic.et"
+   "{C8A7EEB8FA4D552D}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sapper.et"
+   "{6B9F8BAACBC237C2}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Rifleman.et"
+   "{B1ADC2BBD8B0C269}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sharpshooter.et"
+  }
+ }
+ bws2 {
+  components {
+   LL_GroupCallsign "{69CACB7286547913}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 663.818 35.719 1655.838
+  angles 0 6.359 0
+  m_aUnitPrefabSlots {
+   "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
+   "{25AAB149D185C0EB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SR.et"
+   "{5CD7F354E0BAD549}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_RTO.et"
+   "{7D9BC6C28A0F2F07}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Medic.et"
+   "{672D72B4E8DD4A82}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_MG.et"
+   "{0AF3CAD0EC9131CF}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AMG.et"
+   "{ED92C56FFF1B403D}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AT.et"
+   "{804C7D0BFB573B70}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AAT.et"
+   "{B1ADC2BBD8B0C269}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sharpshooter.et"
+  }
+ }
+ bws3 {
+  components {
+   LL_GroupCallsign "{69CACB75601743B4}" {
+    m_iCompany 4
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Bundeswehr PzAbw-Trupp"
+     m_aAutoLabels {
+      GROUPSIZE_MEDIUM
+      GROUPTYPE_INFANTRY
+     }
+    }
+   }
+  }
+  coords 656.192 35.719 1656.298
+  angles 0 7.215 0
+  m_aUnitPrefabSlots {
+   "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
+   "{5CD7F354E0BAD549}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_RTO.et"
+   "{7D9BC6C28A0F2F07}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Medic.et"
+   "{672D72B4E8DD4A82}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_MG.et"
+   "{0AF3CAD0EC9131CF}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AMG.et"
+   "{B1ADC2BBD8B0C269}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sharpshooter.et"
+  }
+ }
+ bws4 {
+  components {
+   LL_GroupCallsign "{69CACB75601743B4}" {
+    m_iCompany 4
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Bundeswehr PzAbw-Trupp"
+     m_aAutoLabels {
+      GROUPSIZE_MEDIUM
+      GROUPTYPE_INFANTRY
+     }
+    }
+   }
+  }
+  coords 648.871 35.719 1657.283
+  angles 0 9.042 0
+  m_aUnitPrefabSlots {
+   "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
+   "{5CD7F354E0BAD549}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_RTO.et"
+   "{7D9BC6C28A0F2F07}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Medic.et"
+   "{672D72B4E8DD4A82}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_MG.et"
+   "{0AF3CAD0EC9131CF}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_AMG.et"
+   "{B1ADC2BBD8B0C269}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_Sharpshooter.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{88502D3C2C3117B9}Prefabs/Groups/BLUFOR/Group_BGS_Squad.et" {
+ bgs1 {
+  components {
+   LL_GroupCallsign "{69CACB73B18703D1}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+  }
+  coords 675.902 37.375 1392.651
+  angles 0 5.798 0
+  m_aUnitPrefabSlots {
+   "{4492D5B84B0222EB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_SL.et"
+   "{C137289B7642FCC7}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_RTO.et"
+   "{F49170275E814E16}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_Medic.et"
+   "{7B0DFABD17C9941B}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_MG.et"
+   "{9713111F7A691841}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AMG.et"
+   "{F1B24D66000F9EA4}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AT.et"
+   "{1DACA6C46DAF12FE}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AAT.et"
+   "{CDA24ABBE6E36052}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_Sharpshooter.et"
+  }
+ }
+ bgs2 {
+  components {
+   LL_GroupCallsign "{69CACB739EB2F27B}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1496.813 39.719 1271.074
+  m_aUnitPrefabSlots {
+   "{4492D5B84B0222EB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_SL.et"
+   "{C137289B7642FCC7}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_RTO.et"
+   "{F49170275E814E16}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_Medic.et"
+   "{7B0DFABD17C9941B}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_MG.et"
+   "{9713111F7A691841}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AMG.et"
+   "{F1B24D66000F9EA4}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AT.et"
+   "{1DACA6C46DAF12FE}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AAT.et"
+   "{CDA24ABBE6E36052}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_Sharpshooter.et"
+  }
+ }
+ bgs3 {
+  components {
+   LL_GroupCallsign "{69CACB7396819C60}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1484.977 39.719 1270.989
+  m_aUnitPrefabSlots {
+   "{4492D5B84B0222EB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_SL.et"
+   "{398A39402E911E72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_SR.et"
+   "{C137289B7642FCC7}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_RTO.et"
+   "{F1B24D66000F9EA4}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AT.et"
+   "{1DACA6C46DAF12FE}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_AAT.et"
+   "{CDA24ABBE6E36052}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BGS/Character_BGS_Sharpshooter.et"
+  }
+ }
+}
+SCR_AIGroup bwhq : "{91C7EB05B64D8168}Prefabs/Groups/BLUFOR/Group_BW_HQ.et" {
+ components {
+  LL_GroupCallsign "{69CACB72AB93878F}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 644.833 35.719 1658.436
+ angles 0 8.811 0
+}
+Vehicle M151A2_PZG_GER1 : "{9BDDB06E8D3E3D8E}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "bws3"
+  }
+ }
+ coords 662.104 35.719 1664.567
+ angles 0 7.733 0
+}
+Vehicle M151A2_Roof_PZG_GER1 : "{A59B6CE827176167}Prefabs/Vehicles/Wheeled/M151A2/M151A2 Roof PZG GER.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "bws1"
+  }
+ }
+ coords 654.289 35.719 1689.638
+ angles 0 -167.212 0
+}
+Turret : "{B35E6750CA397D49}Prefabs/Weapons/Tripods/BGM71TOW/Deployable_Tripod_BGM71_TOW_v2.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69CACB75F38AF7FA}" {
+   m_sGroupName "PzAbwTrupp"
+  }
+  TF_TurretWeaponMoveComponent "{693D05E36AFAF74F}" {
+   Enabled 0
+  }
+ }
+ coords 639.714 35.719 1667.235
+ angles 0 8.629 0
+}
+$grp Vehicle : "{B45E86F64FD17B14}Prefabs/Vehicles/Wheeled/M151A2/M151A2 armed PZG GER.et" {
+ M151A2_armed_PZG_GER1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws1"
+   }
+  }
+  coords 657.17 35.719 1688.936
+  angles 0 -167.208 0
+ }
+ M151A2_armed_PZG_GER2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws1"
+   }
+  }
+  coords 660.081 35.719 1688.293
+  angles 0 -167.208 0
+ }
+ M151A2_armed_PZG_GER3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bwhq"
+   }
+  }
+  coords 645.003 35.719 1668.077
+  angles 0 8.49 0
+ }
+ M151A2_armed_PZG_GER4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws3"
+   }
+  }
+  coords 659.262 35.719 1664.85
+  angles 0 9.657 0
+ }
+}
+$grp GenericEntity : "{EBBC859CCD94D96F}Prefabs/Props/EmptyStorages/BW_AmmoBox_empty.et" {
+ {
+  coords 676.831 37.375 1394.433
+  angles 0 -177.085 0
+ }
+ {
+  coords 1485.465 39.75 1272.585
+  angles 0 -177.085 0
+ }
+ {
+  coords 1497.404 39.75 1272.371
+  angles 0 -177.085 0
+ }
+ {
+  coords 665.883 35.719 1682.518
+  angles 0 13.966 0
+ }
+ {
+  coords 663.944 35.718 1657.306
+  angles 0 -172.995 0
+ }
+ {
+  coords 656.664 35.719 1658.155
+  angles 0 -172.995 0
+ }
+ {
+  coords 649.498 35.718 1659.15
+  angles 0 -172.995 0
+ }
+ {
+  coords 634.951 35.719 1661.11
+  angles 0 -172.995 0
+ }
+}

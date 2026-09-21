@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{62BC0584E28E901D}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Parachute {
+     Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+    }
+   }
+  }
+ }
+}

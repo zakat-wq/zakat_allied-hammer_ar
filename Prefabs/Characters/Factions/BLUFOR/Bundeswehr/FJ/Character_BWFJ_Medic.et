@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{71BA0617347DEA38}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Extra {
+    }
+    LoadoutSlotInfo Parachute {
+     Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 77.303 0
+}

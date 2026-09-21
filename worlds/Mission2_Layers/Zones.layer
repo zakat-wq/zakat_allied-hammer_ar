@@ -1,0 +1,28 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3800.178 380.731 474.431
+ }
+ {
+  coords 54.579 308.75 1410.749
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 3439.28 365.342 41.052
+ }
+ {
+  coords 238.759 337.77 3826.089
+ }
+ {
+  coords 1939.109 314.31 3595.247
+ }
+ {
+  coords 1606.511 325.815 2588.265
+ }
+ {
+  coords 1782.727 339.03 1332.471
+ }
+ {
+  coords 961.954 298.937 3192.388
+ }
+}

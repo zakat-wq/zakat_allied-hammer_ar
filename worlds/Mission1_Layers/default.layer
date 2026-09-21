@@ -1,0 +1,160 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1141.119 33.042 2013.339
+}
+GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
+ coords 1057.353 77.388 1353.329
+ FogHeightStart entity
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1165.557 33.282 2023.461
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A5ED80FEA0EB8ED}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 5
+     m_iStartingMinutes 30
+    }
+   }
+   m_bAllowHeaderSettings 1
+   m_bFogOverride 1
+   m_fFogAmount 0.549
+   m_fFogHeightDensity 0.281
+   m_bDateOverride 1
+   m_iDay 24
+   m_iMonth 7
+  }
+ }
+ coords 1009.84 33.938 2008.562
+ m_iFreezeTime 300000
+}
+$grp SCR_PrefabDeleterEntity {
+ {
+  coords 1576.514 38.269 1394.674
+  m_fRadius 5
+ }
+ {
+  coords 1549.75 38.269 1464.633
+  m_fRadius 5
+ }
+ {
+  coords 1550.431 38.269 1478.106
+  m_fRadius 5
+ }
+ {
+  coords 1552.079 38.269 1500.212
+  m_fRadius 5
+ }
+ {
+  coords 1387.408 38.269 1670.508
+  m_fRadius 8
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ NVAloss {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы Национальной народной армии понесли критические потери"
+    m_sFactionKey "NVA"
+    m_iThreshold 7
+   }
+  }
+  coords 1094.877 34.097 2020.548
+ }
+ BWloss {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Вооружённые силы Федеративной Республики Германия понесли критические потери"
+    m_sFactionKey "BW"
+    m_iThreshold 5
+   }
+  }
+  coords 1126.362 33.317 2005.685
+ }
+}
+$grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "tr1"
+    m_sZoneDisplayName "Топливное хранилище"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "Flag5"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 777.698 35.086 2034.574
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "tr2"
+    m_sZoneDisplayName "Поселок Мирный"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "Flag3"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_bStartsNeutral 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 785.568 35.086 2033.465
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "tr3"
+    m_sZoneDisplayName "Блокпост"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "Flag1"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 777.342 35.086 2034.302
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "tr4"
+    m_sZoneDisplayName "Военная база"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "Flag2"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 765.642 35.086 2030.509
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_iSeconds 4800
+  }
+ }
+ coords 1090.547 36.966 1992.834
+}

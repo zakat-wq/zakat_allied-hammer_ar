@@ -1,0 +1,84 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 3703.063 240.672 4964.124
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3695.926 238.851 4952.809
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 20
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_bDateOverride 1
+   m_iDay 26
+   m_iMonth 7
+  }
+ }
+ coords 3690.73 236.143 4937.292
+}
+$grp ParticleEffectEntity {
+ {
+  coords 1563.033 292.937 2856.459
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 1564.814 292.96 2853.459
+  EffectPath "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+ }
+ {
+  coords 1564.242 292.969 2852.858
+  EffectPath "{F50F8EDBAB50FB29}Particles/Vehicle/Vehicle_smoke_BTRl_damaged_black_02.ptc"
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Вооружённые силы Национальной Народной Армии понесли критические потери"
+    m_sFactionKey "NVA"
+    m_iThreshold 5
+   }
+  }
+  coords 2068.031 225.075 3220.543
+ }
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Вооружённые силы Федеративной Республики Германия понесли критические потери"
+    m_sFactionKey "BW"
+    m_iThreshold 5
+   }
+  }
+  coords 2068.031 225.075 3220.543
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_iSeconds 4800
+  }
+ }
+ coords 3591.816 234.808 4966.764
+}
+GenericEntity : "{42877F459BC30CDB}Prefabs/Triggers/LL_Trigger_DefeatGroup.et" {
+ components {
+  LL_TriggerDefeatGroup "{69BD22C33D35A288}" {
+   m_bBroadcastMessage 0
+   m_sGroupEntityName "pilotsdown"
+   m_sGroupDisplayName "Сбитые пилоты"
+   m_fStatPoints 100
+   m_fStatMaxPerPlayer 1
+  }
+ }
+ coords 3576.473 234.515 4959.262
+}
+StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+ coords 3645.593 0.313 4901.785
+ angles 0 -15.598 0
+}
+GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
+ coords 1562.468 292.954 2856.597
+}
+ParticleEffectEntity : "{F1DA042378E5D93C}Prefabs/Particles/Smoke/Smoke_Smokestack_Big.et" {
+ coords 1565.134 292.933 2854.551
+}
