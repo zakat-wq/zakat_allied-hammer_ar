@@ -1,4 +1,5 @@
 MatPBRBasic {
-AllowUserAlphaBias 1
-DisableUserAlphaInShadow 1
+ Cull none
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
 }

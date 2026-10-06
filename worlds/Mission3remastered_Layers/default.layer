@@ -72,10 +72,6 @@ GenericEntity : "{42877F459BC30CDB}Prefabs/Triggers/LL_Trigger_DefeatGroup.et" {
  }
  coords 3576.473 234.515 4959.262
 }
-StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
- coords 3645.593 0.313 4901.785
- angles 0 -15.598 0
-}
 GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  coords 1562.468 292.954 2856.597
 }

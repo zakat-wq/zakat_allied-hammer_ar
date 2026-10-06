@@ -1,10 +1,144 @@
+$grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ M923A1_transport_covered_MERDC1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws1"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3609.148 234.896 4956.527
+  angles 0 -2.023 0
+ }
+ M923A1_transport_covered_MERDC2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws2"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3608.323 234.96 4966.698
+  angles 0 -2.023 0
+ }
+ M923A1_transport_covered_MERDC3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws4"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3575.476 234.483 4971.236
+  angles 0 84.957 0
+ }
+}
 $grp SCR_AIGroup : "{05C9C7E1AA2AA40E}Prefabs/Groups/BLUFOR/Group_BW_MotSquad.et" {
  bws1 {
   components {
    LL_GroupCallsign "{6A6AB2D693CBD194}" {
    }
   }
-  coords 3612.202 234.454 4951.485
+  coords 3612.189 234.454 4951.798
   angles 0 -92.164 0
   m_aUnitPrefabSlots {
    "{58B25DB1B416FC72}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/BW/Character_BW_SL.et"
@@ -121,10 +255,6 @@ $grp SCR_AIGroup : "{05C9C7E1AA2AA40E}Prefabs/Groups/BLUFOR/Group_BW_MotSquad.et
   }
  }
 }
-Vehicle U1H1_SAR1 : "{0FC5D7985E3E844F}Prefabs/Vehicles/Helicopters/UH1H/U1H1_SAR.et" {
- coords 3644.665 233.526 4900.532
- angles 0 74.301 0
-}
 SCR_AIGroup bwfj : "{11718BA56BECCF5F}Prefabs/Groups/BLUFOR/Group_BWFJ_Squad.et" {
  components {
   LL_GroupCallsign "{6A68D781CB8619B3}" {
@@ -145,96 +275,24 @@ SCR_AIGroup bwfj : "{11718BA56BECCF5F}Prefabs/Groups/BLUFOR/Group_BWFJ_Squad.et"
   "{408B908EB5F437B0}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Sharpshoter.et"
  }
 }
-$grp Vehicle : "{2F4496DBB6BF8196}Prefabs/Vehicles/Wheeled/M923A1/M923A1 covered PZG GER.et" {
- M923A1_covered_PZG_GER1 {
+$grp Vehicle : "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et" {
+ M151A2_M2HB_MERDC1 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws1"
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
+    m_sGroupName "bws3"
    }
   }
-  coords 3608.351 234.881 4956.835
-  angles 0 -3.056 0
+  coords 3585.643 234.531 4953.706
+  angles 0 -6.28 0
  }
- M923A1_covered_PZG_GER2 {
+ M151A2_M2HB_MERDC2 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws2"
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
+    m_sGroupName "bws5"
    }
   }
-  coords 3607.949 234.956 4966.787
-  angles 0 -3.207 0
- }
- M923A1_covered_PZG_GER4 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws4"
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 3575.728 234.516 4965.547
-  angles 0 -3.207 0
+  coords 3596.485 234.531 4954.571
+  angles 0 -6.28 0
  }
 }
 $grp SCR_AIGroup : "{5CB4E14B4DB73BF8}Prefabs/Groups/BLUFOR/Group_BW_HeliCrew.et" {
@@ -246,7 +304,7 @@ $grp SCR_AIGroup : "{5CB4E14B4DB73BF8}Prefabs/Groups/BLUFOR/Group_BW_HeliCrew.et
     m_iSquad 0
    }
   }
-  coords 3645.777 233.583 4906.771
+  coords 3635.733 233.334 4909.843
   angles 0 163.215 0
  }
  pilotsdown {
@@ -265,6 +323,15 @@ $grp SCR_AIGroup : "{5CB4E14B4DB73BF8}Prefabs/Groups/BLUFOR/Group_BW_HeliCrew.et
   }
  }
 }
+StaticModelEntity : "{70C5BBB437D7B64E}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01_base.et" {
+ components {
+  RigidBody "{56ACD1C4D3E9DDF0}" {
+   ResponseIndex "Normal"
+  }
+ }
+ coords 3643.953 0.264 4895.06
+ angles 0 -13.281 0
+}
 SCR_AIGroup bwhq : "{91C7EB05B64D8168}Prefabs/Groups/BLUFOR/Group_BW_HQ.et" {
  components {
   LL_GroupCallsign "{6A68D7850997EFA0}" {
@@ -276,79 +343,84 @@ SCR_AIGroup bwhq : "{91C7EB05B64D8168}Prefabs/Groups/BLUFOR/Group_BW_HQ.et" {
  coords 3589.27 234.531 4950.896
  angles 0 -8.612 0
 }
-$grp Vehicle : "{9BDDB06E8D3E3D8E}Prefabs/Vehicles/Wheeled/M151A2/M151A2 PZG GER.et" {
- M151A2_PZG_GER2 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws6"
-   }
-  }
-  coords 3605.192 234.844 4956.013
-  angles 0 -5.463 0
- }
- M151A2_PZG_GER3 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws5"
-   }
-  }
-  coords 3592.325 234.635 4955.079
-  angles 0 -5.463 0
- }
- M151A2_PZG_GER4 {
+$grp Vehicle : "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et" {
+ M151A2_transport_MERDC1 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "bws7"
    }
   }
-  coords 3574.709 234.492 4954.372
-  angles 0 -5.463 0
+  coords 3575.468 234.531 4953.021
+  angles 0 -5.401 0
  }
- M151A2_PZG_GER5 {
+ M151A2_transport_MERDC2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws7"
+   }
+  }
+  coords 3578.28 234.531 4953.343
+  angles 0 -5.401 0
+ }
+ M151A2_transport_MERDC3 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "bws3"
    }
   }
-  coords 3581.915 234.531 4954.518
-  angles 0 -5.463 0
+  coords 3581.678 234.531 4953.717
+  angles 0 -7.011 0
+ }
+ M151A2_transport_MERDC4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bwhq"
+   }
+  }
+  coords 3589.459 234.545 4953.964
+  angles 0 -4.168 0
+ }
+ M151A2_transport_MERDC5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws5"
+   }
+  }
+  coords 3592.52 234.531 4954.582
+  angles 0 -7.011 0
+ }
+ M151A2_transport_MERDC6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws6"
+   }
+  }
+  coords 3604.856 234.835 4955.837
+  angles 0 -5.401 0
+ }
+ M151A2_transport_MERDC7 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "bws6"
+   }
+  }
+  coords 3602.044 234.781 4955.515
+  angles 0 -5.401 0
  }
 }
-$grp Vehicle : "{B45E86F64FD17B14}Prefabs/Vehicles/Wheeled/M151A2/M151A2 armed PZG GER.et" {
- M151A2_armed_PZG_GER1 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws6"
+Vehicle SAR1 : "{DC84FA6A8FF7183F}Prefabs/Vehicles/Helicopters/UH1H/SAR.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "helipilots"
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 166
+    }
    }
   }
-  coords 3601.577 234.781 4955.744
-  angles 0 -6.428 0
  }
- M151A2_armed_PZG_GER2 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws5"
-   }
-  }
-  coords 3595.924 234.687 4955.185
-  angles 0 -6.428 0
- }
- M151A2_armed_PZG_GER3 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws7"
-   }
-  }
-  coords 3578.309 234.531 4954.478
-  angles 0 -6.428 0
- }
- M151A2_armed_PZG_GER4 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "bws3"
-   }
-  }
-  coords 3585.515 234.531 4954.624
-  angles 0 -6.428 0
- }
+ coords 3641.605 233.017 4895.57
+ angles 0 79.174 0
 }

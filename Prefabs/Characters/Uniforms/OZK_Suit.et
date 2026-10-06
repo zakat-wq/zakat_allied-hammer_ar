@@ -8,7 +8,7 @@ GameEntity : "{55D44DAFA9AF1B5E}Prefabs/Characters/Uniforms/OZK_Suit.et" {
    AreaType LoadoutHeadCoverArea "{5D46727048C4B536}" {
    }
    WornMaterialsOverride {
-    "{F8B1BED7E3BDBC78}Assets/ESU/Sov_Equipment/OZK_Suit/Data/Material_#1065.emat" "{959D4091A4BB190F}Assets/ESU/Sov_Equipment/OZK_Suit/Data/Material_#1077.emat" "{C29DB50DBC61A663}Assets/ESU/Sov_Gloves/Data/ozk_gloves.emat"
+    "{F8B1BED7E3BDBC78}Assets/ESU/Sov_Equipment/OZK_Suit/Data/Material_#1065.emat" "{959D4091A4BB1910}Assets/ESU/Sov_Equipment/OZK_Suit/Data/Material_#1077.emat" "{C29DB50DBC61A663}Assets/ESU/Sov_Gloves/Data/ozk_gloves.emat"
    }
    DebugWornModel 1
   }
