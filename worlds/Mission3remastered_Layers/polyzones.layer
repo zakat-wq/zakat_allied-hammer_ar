@@ -395,47 +395,119 @@ $grp PolylineShapeEntity {
   }
   IsClosed 1
  }
- evaczone {
+ evac1 {
   components {
-   LL_MapZoneComponent "{6A6AC826EA3B817C}" {
+   LL_MapZoneComponent "{6A8F6CCDDC53CD46}" {
+    m_FillColor 0.655 0.71 0.875 0.276
+    m_OutlineColor 0 0.125 0.502 1
+   }
+  }
+  coords 5117.706 178.969 3679.36
+  Points {
+   ShapePoint "{6A8F6CCD9DCA372B}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A8F6CCD9DCA144A}" {
+    Position -166.594 -4.166 118.838
+   }
+   ShapePoint "{6A8F6CCD8B301EF8}" {
+    Position -431.809 -10.431 -172.96
+   }
+   ShapePoint "{6A8F6CCDF1598909}" {
+    Position -286.53 -9.88 -220.573
+   }
+   ShapePoint "{6A8F6CCDF2DB04FE}" {
+    Position -238.126 -11.455 -245.219
+   }
+   ShapePoint "{6A8F6CCDF799D295}" {
+    Position 0.721 -9.534 -462.244
+   }
+   ShapePoint "{6A8F6CCDEA8C2C9E}" {
+    Position 0.173 -0.038 -13.241
+   }
+  }
+  IsClosed 1
+ }
+ evac2 {
+  components {
+   LL_MapZoneComponent "{6A8F6CCD6F15F368}" {
+    m_FillColor 0.655 0.71 0.875 0.276
+    m_OutlineColor 0 0.125 0.502 1
+   }
+  }
+  coords 415.532 152.087 5114.088
+  Points {
+   ShapePoint "{6A8F6CCD7E537D4A}" {
+    Position 0 -0.002 0
+   }
+   ShapePoint "{6A8F6CCD7E532958}" {
+    Position -76.682 -5.823 -150.808
+   }
+   ShapePoint "{6A8F6CCD720E866C}" {
+    Position -55.331 -10.58 -174.353
+   }
+   ShapePoint "{6A8F6CCD7454151F}" {
+    Position -32.587 -13.079 -178.108
+   }
+   ShapePoint "{6A8F6CCD76A92EC9}" {
+    Position 102.754 -13.521 -148.252
+   }
+   ShapePoint "{6A8F6CCD684CDEDF}" {
+    Position 194.525 -10.035 -7.898
+   }
+  }
+  IsClosed 1
+ }
+ evac3 {
+  components {
+   LL_MapZoneComponent "{6A8F6CCCBB286638}" {
+    m_FillColor 0.655 0.71 0.875 0.276
+    m_OutlineColor 0 0.125 0.502 1
+   }
+  }
+  coords 1461.016 184.526 6.733
+  Points {
+   ShapePoint "{6A8F6CCD41DFCABC}" {
+    Position 0 -0.001 0
+   }
+   ShapePoint "{6A8F6CCD41DF8E25}" {
+    Position 12.851 -5.493 197.5
+   }
+   ShapePoint "{6A8F6CCD44B133C9}" {
+    Position -67.014 -3.818 239.617
+   }
+   ShapePoint "{6A8F6CCD45A7EACA}" {
+    Position -92.787 0.628 -0.967
+   }
+  }
+  IsClosed 1
+ }
+ evac4 {
+  components {
+   LL_MapZoneComponent "{6A8F6CCCEEE2B0EB}" {
     m_FillColor 0.658 0.708 0.871 0.275
     m_OutlineColor 0 0.125 0.502 1
    }
   }
-  coords 3680.814 220.751 5117.329
+  coords 3672.851 220.79 5117.137
   Points {
-   ShapePoint "{6A6AC8268E8A4A48}" {
+   ShapePoint "{6A8F6CCCFDD341B2}" {
     Position 0 0.001 0
    }
-   ShapePoint "{6A6AC8268E8BF742}" {
-    Position 5 2.286 0
+   ShapePoint "{6A8F6CCCFDD30B9F}" {
+    Position -21.53 14.419 -109.642
    }
-   ShapePoint "{6A6AC8268F8759AC}" {
-    Position -24.481 14.531 -108.998
+   ShapePoint "{6A8F6CCCF21A9277}" {
+    Position -8.14 13.419 -186.785
    }
-   ShapePoint "{6A6AC826854C1DAA}" {
-    Position -22.51 15.322 -141.541
+   ShapePoint "{6A8F6CCCF4521E06}" {
+    Position -139.79 11.407 -195.764
    }
-   ShapePoint "{6A6AC82686EACFA0}" {
-    Position -9.573 14.299 -180.29
+   ShapePoint "{6A8F6CCCF668B39F}" {
+    Position -147.474 11.105 -84.778
    }
-   ShapePoint "{6A6AC826F8D900F8}" {
-    Position -201.038 6.981 -205.703
-   }
-   ShapePoint "{6A6AC826F9CDCC58}" {
-    Position -214.642 10.057 -133.836
-   }
-   ShapePoint "{6A6AC826FA753979}" {
-    Position -204.489 11.045 -118.042
-   }
-   ShapePoint "{6A6AC826FB26D578}" {
-    Position -96.761 7.795 -53.407
-   }
-   ShapePoint "{6A6AC826FC0BD642}" {
-    Position -97.174 7.508 -33.995
-   }
-   ShapePoint "{6A6AC826FCC07CD9}" {
-    Position -44.298 3.243 -12.147
+   ShapePoint "{6A8F6CCCF7B68E07}" {
+    Position -20.724 2.524 -3.369
    }
   }
   IsClosed 1

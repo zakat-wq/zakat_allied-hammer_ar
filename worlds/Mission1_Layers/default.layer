@@ -14,7 +14,7 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6A5ED80FEA0EB8ED}" {
-     m_sWeatherPresetName "Rainy"
+     m_sWeatherPresetName "Cloudy"
      m_iStartingHour 5
      m_iStartingMinutes 30
     }
@@ -86,6 +86,8 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_sDefenderFaction "BW"
     m_aFlagNames {
      "Flag5"
+     "Flag9"
+     "Flag10"
     }
     m_fStatPoints 10
     m_fStatMaxPerPlayer 1
@@ -104,6 +106,7 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_sDefenderFaction "BW"
     m_aFlagNames {
      "Flag3"
+     "Flag12"
     }
     m_fStatPoints 10
     m_fStatMaxPerPlayer 1
@@ -123,6 +126,10 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_sDefenderFaction "BW"
     m_aFlagNames {
      "Flag1"
+     "Flag4"
+     "Flag6"
+     "Flag7"
+     "Flag8"
     }
     m_fStatPoints 10
     m_fStatMaxPerPlayer 1
@@ -141,6 +148,7 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_sDefenderFaction "BW"
     m_aFlagNames {
      "Flag2"
+     "Flag11"
     }
     m_fStatPoints 10
     m_fStatMaxPerPlayer 1

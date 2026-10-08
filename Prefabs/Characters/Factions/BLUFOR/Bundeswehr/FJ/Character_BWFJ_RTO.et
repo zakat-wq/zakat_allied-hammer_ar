@@ -1,16 +1,45 @@
-SCR_ChimeraCharacter : "{A0077DEE94BF16CA}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_RTO.et" {
+SCR_ChimeraCharacter : "{5B11EE7E910E1490}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fallschirmjäger Funker"
+    IconSetName "EditableEntity_Character_Radio_Operator"
+    m_Image "{05CA17B2B44DD8DD}UI/FJ/5_BCR.edds"
+    m_aAutoLabels {
+     SIZE_M ROLE_RADIOOPERATOR
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Extra {
+    LoadoutSlotInfo Back {
+     Prefab "{F0A675A839C1ACAD}Prefabs/Items/Equipment/Backpacks/GMS_StaticLine_Parachute.et"
     }
-    LoadoutSlotInfo Parachute {
-     Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+    LoadoutSlotInfo Vest {
+     Prefab "{3C67C36658257D7B}Prefabs/Characters/Vests/Vest_G3/Variants/Vest_BW_rifleman.et"
+    }
+    LoadoutSlotInfo Extra {
+     Prefab "{3C9E2F5235FCA214}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_fix.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/Pants_US_Flecktarn.et"
+    }
+    ItemsInitConfigurationItem "{694AADE48C21C432}" {
+    }
+    ItemsInitConfigurationItem "{6A8F6CC937994873}" {
+     TargetStorage "Extra/Backpack_Satchel.et"
+     PrefabsToSpawn {
+      ""
+     }
     }
    }
   }
  }
  coords 0 0 0
- angles 0 38.109 0
+ angles 0 -35.184 0
 }

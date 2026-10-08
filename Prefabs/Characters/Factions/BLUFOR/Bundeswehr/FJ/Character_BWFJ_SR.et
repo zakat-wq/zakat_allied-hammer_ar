@@ -4,9 +4,11 @@ SCR_ChimeraCharacter : "{E9A1CB8A71745C48}Prefabs/Characters/Factions/BLUFOR/Bun
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
+     Prefab "{F0A675A839C1ACAD}Prefabs/Items/Equipment/Backpacks/GMS_StaticLine_Parachute.et"
+    }
+    LoadoutSlotInfo Extra {
     }
     LoadoutSlotInfo Parachute {
-     Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
     }
    }
   }

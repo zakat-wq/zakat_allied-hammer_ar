@@ -82,6 +82,31 @@ $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPo
  Flag5 {
   coords 1464.732 50.244 1936.304
  }
+ Flag4 {
+  coords 1549.665 44.145 1243.116
+ }
+ Flag6 {
+  coords 1571.953 44.145 1244.362
+ }
+ Flag7 {
+  coords 1571.608 44.145 1354.354
+ }
+ Flag8 {
+  coords 1549.054 44.145 1353.756
+ }
+ Flag9 {
+  coords 1425.391 43.224 1929.083
+ }
+ Flag10 {
+  coords 1440.384 44.18 1980.329
+ }
+ Flag11 {
+  coords 615.596 44.888 1661.261
+  angles 0 9.122 0
+ }
+ Flag12 {
+  coords 165.349 54.97 969.271
+ }
 }
 $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
  {
