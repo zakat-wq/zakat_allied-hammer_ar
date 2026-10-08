@@ -6,3 +6,11 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   coords 69.544 154.613 828.926
  }
 }
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 4973.438 175.656 3737.037
+ }
+ {
+  coords 216.692 159.99 4758.472
+ }
+}

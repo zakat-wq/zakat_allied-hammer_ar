@@ -8,6 +8,10 @@ $grp GenericEntity : "{3786D96761E703BC}Prefabs/Vegetation/Tree/Debris/T_trunk_d
   angles 0 -49.679 0
  }
 }
+SCR_DestructibleBuildingEntity : "{3938CE637B925D55}Prefabs/Structures/Houses/Village/House_Village_E_1I01_fd_fd.et" {
+ coords 2985.379 0.762 4046.921
+ angles 0 -63.225 0
+}
 GenericEntity : "{630CDF78F2391CF8}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_03.et" {
  coords 3393.306 385.992 825.434
  angles 0 -12.968 0
@@ -76,4 +80,8 @@ $grp GenericEntity : "{EAC4A761421804BD}Prefabs/Vegetation/Tree/Debris/T_trunk_d
   coords 2389.638 234.813 2340.737
   angles 22.724 58.129 0
  }
+}
+SCR_DestructibleBuildingEntity : "{F29BECBA5BAFB1B7}Prefabs/Structures/Houses/Town/House_Town_E_2I03_v2_fd_fd.et" {
+ coords 2898.702 1.037 4046.23
+ angles 0 -70.062 0
 }
