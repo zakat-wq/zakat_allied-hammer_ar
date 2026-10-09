@@ -12,7 +12,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 20
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6A907616D8662075}" {
@@ -26,6 +25,7 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
   }
  }
  coords 3690.73 236.143 4937.292
+ m_iFreezeTime 300000
 }
 $grp ParticleEffectEntity {
  {
@@ -45,7 +45,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Вооружённые силы Национальной Народной Армии понесли критические потери"
+    m_sMessage "Войска ГДР понесли критические потери. Победа ФРГ."
     m_sFactionKey "NVA"
     m_iThreshold 5
    }
@@ -55,7 +55,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Вооружённые силы Федеративной Республики Германия понесли критические потери"
+    m_sMessage "Войска ФРГ понесли критические потери. Победа ГДР."
     m_sFactionKey "BW"
     m_iThreshold 5
    }
@@ -66,6 +66,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
 GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло."
    m_iSeconds 4800
   }
  }

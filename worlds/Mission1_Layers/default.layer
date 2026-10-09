@@ -57,7 +57,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  NVAloss {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Силы Национальной народной армии понесли критические потери"
+    m_sMessage "Войска ГДР понесли критические потери. Победа ФРГ."
     m_sFactionKey "NVA"
     m_iThreshold 7
    }
@@ -67,7 +67,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  BWloss {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Вооружённые силы Федеративной Республики Германия понесли критические потери"
+    m_sMessage "Войска ФРГ понесли критические потери. Победа ГДР."
     m_sFactionKey "BW"
     m_iThreshold 5
    }
@@ -101,7 +101,7 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
    LL_TriggerZoneContest "{6A0F2E564940880E}" {
     m_bBroadcastMessage 0
     m_sZoneEntityName "tr2"
-    m_sZoneDisplayName "Поселок Мирный"
+    m_sZoneDisplayName "Посёлок Мирный"
     m_sAttackerFaction "NVA"
     m_sDefenderFaction "BW"
     m_aFlagNames {
@@ -161,6 +161,7 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
 GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая триггеры с большей суммой очков."
    m_iSeconds 4800
   }
  }

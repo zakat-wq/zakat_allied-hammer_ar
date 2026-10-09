@@ -1,7 +1,0 @@
-MatPBRBasic {
- Cull none
- AllowUserAlphaBias 1
- DisableUserAphaInShadow 1
- BCRMap "{3A2D7ECED900A502}Assets/ESU/Sov_Equipment/OZK_Suit/Data/ozk_suit_base_BCR.edds"
- NMOMap "{02F5C55C0077F79C}Assets/ESU/Sov_Equipment/OZK_Suit/Data/ozk_suit_base_NMO.edds"
-}
