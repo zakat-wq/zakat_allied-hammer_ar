@@ -100,8 +100,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
  nvas1 {
   components {
    LL_GroupCallsign "{6A6AC82C01FA94B9}" {
-    m_iCompany 1
-    m_iPlatoon 0
+    m_iCompany 0
+    m_iPlatoon 1
     m_iSquad 0
    }
   }
@@ -111,8 +111,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
  nvas2 {
   components {
    LL_GroupCallsign "{6A6AC82C01FA94B9}" {
-    m_iCompany 1
-    m_iPlatoon 0
+    m_iCompany 0
+    m_iPlatoon 1
     m_iSquad 1
    }
   }
@@ -181,8 +181,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
  nvas3 {
   components {
    LL_GroupCallsign "{6A6AC82C01FA94B9}" {
-    m_iCompany 1
-    m_iPlatoon 0
+    m_iCompany 0
+    m_iPlatoon 1
     m_iSquad 2
    }
   }
