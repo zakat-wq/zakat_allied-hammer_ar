@@ -15,8 +15,9 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6A907616D8662075}" {
-     m_sWeatherPresetName "Rainy"
-     m_iStartingHour 16
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 4
+     m_iStartingMinutes 15
     }
    }
    m_bDateOverride 1
