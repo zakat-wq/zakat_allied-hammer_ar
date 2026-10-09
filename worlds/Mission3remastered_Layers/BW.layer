@@ -81,6 +81,13 @@ $grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 64.16 152.812 890.836
   angles 0 82.231 0
@@ -177,6 +184,13 @@ $grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 35.986 152.875 886.103
   angles 0 80.206 0
@@ -195,6 +209,13 @@ $grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "bws4"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
@@ -450,6 +471,7 @@ SCR_AIGroup bwfj : "{11718BA56BECCF5F}Prefabs/Groups/BLUFOR/Group_BWFJ_Squad.et"
   "{E9A1CB8A71745C49}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_SR.et"
   "{A0077DEE94BF16CB}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_RTO.et"
   "{F931D66D2663C2C3}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_AR.et"
+  "{62BC0584E28E901E}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Rifleman.et"
   "{B1C4F0CCD5539E29}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_LAT.et"
   "{71BA0617347DEA39}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Medic.et"
   "{62BC0584E28E901E}Prefabs/Characters/Factions/BLUFOR/Bundeswehr/FJ/Character_BWFJ_Rifleman.et"
