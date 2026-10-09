@@ -344,9 +344,6 @@ Turret : "{B35E6750CA397D49}Prefabs/Weapons/Tripods/BGM71TOW/Deployable_Tripod_B
   LL_VehicleSquadLinkComponent "{69CD1D1314272F8B}" {
    m_sGroupName "bws2"
   }
-  TF_TurretWeaponMoveComponent "{693D05E36AFAF74F}" {
-   Enabled 0
-  }
  }
  coords 963.851 298.937 3197.143
  angles 0 108.363 0
