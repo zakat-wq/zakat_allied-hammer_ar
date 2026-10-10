@@ -6,10 +6,6 @@ SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 1141.119 33.042 2013.339
 }
-GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
- coords 1057.353 198.239 1353.329
- FogHeightStart entity
-}
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1165.557 33.282 2023.461
 }
@@ -63,7 +59,7 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
   components {
    LL_TriggerZoneContest "{6A0F2E564940880E}" {
     m_bBroadcastMessage 0
-    m_sZoneEntityName "tower"
+    m_sZoneEntityName "radio"
     m_sZoneDisplayName "Вышка связи"
     m_sAttackerFaction "NVA"
     m_sDefenderFaction "BW"
@@ -76,20 +72,20 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_fCaptureSeconds 120
    }
   }
-  coords 777.698 35.086 2034.574
+  coords 777.698 142.348 2034.574
+  angles -1.788 0.056 -1.791
  }
  {
   components {
    LL_TriggerZoneContest "{6A0F2E564940880E}" {
     m_bBroadcastMessage 0
-    m_sZoneEntityName "gov"
-    m_sZoneDisplayName "Правительственный квартал"
+    m_sZoneEntityName "center"
+    m_sZoneDisplayName "Центр города"
     m_sAttackerFaction "NVA"
     m_sDefenderFaction "BW"
     m_aFlagNames {
      "flag2"
      "flag3"
-     "flag4"
     }
     m_fStatPoints 10
     m_fStatMaxPerPlayer 1
@@ -97,7 +93,8 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_fCaptureSeconds 120
    }
   }
-  coords 785.568 35.086 2033.465
+  coords 785.568 142.644 2033.465
+  angles -0.893 0.042 -2.684
  }
  {
   components {
@@ -108,25 +105,6 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_sAttackerFaction "NVA"
     m_sDefenderFaction "BW"
     m_aFlagNames {
-     "flag8"
-    }
-    m_fStatPoints 10
-    m_fStatMaxPerPlayer 1
-    m_fCaptureSeconds 120
-   }
-  }
-  coords 777.342 35.086 2034.302
- }
- {
-  components {
-   LL_TriggerZoneContest "{6A0F2E564940880E}" {
-    m_bBroadcastMessage 0
-    m_sZoneEntityName "milbase"
-    m_sZoneDisplayName "Военная база"
-    m_sAttackerFaction "NVA"
-    m_sDefenderFaction "BW"
-    m_aFlagNames {
-     "flag5"
      "flag6"
      "flag7"
     }
@@ -135,7 +113,29 @@ $grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.
     m_fCaptureSeconds 120
    }
   }
-  coords 765.642 35.086 2030.509
+  coords 777.342 142.339 2034.302
+  angles -0.893 0.042 -2.684
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "trench"
+    m_sZoneDisplayName "Окопы"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "flag4"
+     "flag5"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_bStartsNeutral 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 765.642 142.08 2030.509
+  angles -0.895 0.014 -0.895
  }
 }
 GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {

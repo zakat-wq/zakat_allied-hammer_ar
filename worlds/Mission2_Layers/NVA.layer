@@ -80,6 +80,13 @@ Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural43
    }
    m_fDustTopSpeed 60
   }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
  }
  coords 3823.822 381.972 486.702
  angles 0 -118.896 0
@@ -93,8 +100,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 1
    }
   }
-  coords 3826.625 382.064 491.469
-  angles 0 153.989 0
+  coords 3826.686 382.064 492.684
+  angles 0 150.593 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -115,8 +122,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 0
    }
   }
-  coords 3817.863 382.064 486.848
-  angles 0 153.989 0
+  coords 3817.377 382.064 487.616
+  angles 0 151.923 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -137,8 +144,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 2
    }
   }
-  coords 3808.724 382.064 482.012
-  angles 0 151.14 0
+  coords 3808.088 381.342 482.554
+  angles 0 153.514 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -159,8 +166,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 1
    }
   }
-  coords 3794.926 380.563 476.174
-  angles 0 151.671 0
+  coords 3795.371 380.563 476.188
+  angles 0 153.457 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -186,7 +193,7 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     }
    }
   }
-  coords 3777.546 380.047 467.913
+  coords 3777.583 380.047 467.816
   angles 0 150.813 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
@@ -248,6 +255,13 @@ $grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tan
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "NVA"
    }
@@ -265,6 +279,13 @@ $grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tan
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "nvachem"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
@@ -437,6 +458,13 @@ Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheele
    }
    m_fDustTopSpeed 60
   }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
  }
  coords 3815.661 381.518 481.836
  angles 0 -120.81 0
@@ -477,7 +505,7 @@ $grp GenericEntity : "{EBBC859CCD94D96E}Prefabs/Props/EmptyStorages/USSR_AmmoBox
 $grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
  {
   coords 1938.828 314.28 3596.915
-  angles 0 -12.488 0
+  angles -1.067 -12.475 -0.681
  }
  {
   components {
@@ -485,7 +513,7 @@ $grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6
     m_sGroupName "nvas5"
    }
   }
-  coords 3777.843 379.863 465.934
-  angles 0 62.881 0
+  coords 3777.501 380.006 465.42
+  angles -2 -115.138 -0.05
  }
 }

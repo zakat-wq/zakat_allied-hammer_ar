@@ -21,6 +21,24 @@ $grp GenericEntity {
  }
 }
 $grp SCR_AIGroup : "{0002F321C0A5B994}Prefabs/Groups/OPFOR/Group_NVA_SAK_Squad.et" {
+ sak3 {
+  components {
+   LL_GroupCallsign "{69CACB7EC3A5E6BB}" {
+    m_iCompany 3
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 2988.012 140.486 2471.605
+  angles 0 98.755 0
+  m_aUnitPrefabSlots {
+   "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
+   "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
+   "{3A854F1A5C029A8C}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sapper.et"
+   "{210E89B30DC12A59}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Medic.et"
+   "{5408D77B6B2DD566}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sniper.et"
+  }
+ }
  sak1 {
   components {
    LL_GroupCallsign "{69CACB7EDC14E0E9}" {
@@ -29,8 +47,8 @@ $grp SCR_AIGroup : "{0002F321C0A5B994}Prefabs/Groups/OPFOR/Group_NVA_SAK_Squad.e
     m_iSquad 0
    }
   }
-  coords 2281.659 140.546 3470.336
-  angles 0 115.24 0
+  coords 2986.807 140.399 2455.927
+  angles 0 100.144 0
   m_aUnitPrefabSlots {
    "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
    "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
@@ -47,26 +65,8 @@ $grp SCR_AIGroup : "{0002F321C0A5B994}Prefabs/Groups/OPFOR/Group_NVA_SAK_Squad.e
     m_iSquad 1
    }
   }
-  coords 2285.234 140.597 3477.656
-  angles 0 118.652 0
-  m_aUnitPrefabSlots {
-   "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
-   "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
-   "{3A854F1A5C029A8C}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sapper.et"
-   "{210E89B30DC12A59}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Medic.et"
-   "{5408D77B6B2DD566}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sniper.et"
-  }
- }
- sak3 {
-  components {
-   LL_GroupCallsign "{69CACB7EC3A5E6BB}" {
-    m_iCompany 3
-    m_iPlatoon 0
-    m_iSquad 2
-   }
-  }
-  coords 2288.824 140.633 3484.422
-  angles 0 122.58 0
+  coords 2987.461 140.45 2463.965
+  angles 0 94.827 0
   m_aUnitPrefabSlots {
    "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
    "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
@@ -83,7 +83,7 @@ Vehicle UAZ469_PKM3 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
   }
  }
  coords 3958.128 141.324 155.744
- angles 0 -101.58 0
+ angles 3.132 -18.621 6.464
 }
 $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_Base.et" {
  nvas1 {
@@ -94,8 +94,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 1
    }
   }
-  coords 3939.619 143.46 177.66
-  angles 0 81.13 0
+  coords 3940.957 143.46 179.159
+  angles 0 90.513 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -140,7 +140,7 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 2
    }
   }
-  coords 3937.735 143.423 189.188
+  coords 3939.853 143.423 191.126
   angles 0 81.13 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
@@ -163,8 +163,8 @@ $grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_B
     m_iSquad 3
    }
   }
-  coords 3935.428 143.381 201.25
-  angles 0 81.13 0
+  coords 3937 143.381 203.272
+  angles 0 72.946 0
   m_aUnitPrefabSlots {
    "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
    "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
@@ -278,9 +278,16 @@ $grp Vehicle : "{3B4A2C1ED5DBB0B8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
-  coords 3946.249 141.781 163.395
-  angles 0 -9.974 0
+  coords 3946.341 141.781 162.385
+  angles 0 -1.295 0
   {
    GameEnvironmentProbeEntity {
     ID "654C8CD3B0316F22"
@@ -377,9 +384,16 @@ $grp Vehicle : "{3B4A2C1ED5DBB0B8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 3949.034 141.677 146.891
-  angles 0 -9.974 0
+  angles 4.883 -10.643 1.806
   {
    GameEnvironmentProbeEntity {
     ID "654C8CD3B0316F22"
@@ -399,7 +413,7 @@ Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NS
   }
  }
  coords 3942.227 141.682 146.277
- angles 0 81.47 0
+ angles 1.54 81.586 4.287
  {
   GenericEntity {
    ID "6554E1F2A56526F1"
@@ -414,6 +428,14 @@ Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NS
   }
  }
 }
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 3949.39 141.844 171.181
+ }
+ {
+  coords 2990.038 140.373 2461.864
+ }
+}
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
   components {
@@ -421,12 +443,12 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     m_sGroupName "nvas3"
    }
   }
-  coords 3940.176 142 197.537
-  angles 0 -9.806 0
+  coords 3943.195 141.998 200.144
+  angles -0.845 -19.344 0.296
   {
    GameEnvironmentProbeEntity {
     ID "654E652E0CEAC5BD"
-    coords -0 -0.011 1.156
+    coords 0 -0.011 1.156
    }
    GenericEntity {
     ID "6951093DB09C3840"
@@ -448,8 +470,8 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     m_sGroupName "nvas2"
    }
   }
-  coords 3942.304 142 185.808
-  angles 0 -9.806 0
+  coords 3945.396 142 187.307
+  angles 0 -8.876 0
   {
    GameEnvironmentProbeEntity {
     ID "654E652E0CEAC5BD"
@@ -475,8 +497,8 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     m_sGroupName "nvas1"
    }
   }
-  coords 3944.24 141.913 174.379
-  angles 0 -9.806 0
+  coords 3946.124 141.927 175.359
+  angles 0.894 -2.711 -0.042
   {
    GameEnvironmentProbeEntity {
     ID "654E652E0CEAC5BD"
@@ -505,28 +527,28 @@ SCR_AIGroup nvahq : "{E4381BE23CCA6F72}Prefabs/Groups/OPFOR/Group_NVA_MSD_HQ.et"
    m_iSquad 0
   }
  }
- coords 3953.991 143.415 155.37
+ coords 3962.009 141.961 155.853
  angles 0 -103.364 0
 }
 $grp GenericEntity : "{EBBC859CCD94D96E}Prefabs/Props/EmptyStorages/USSR_AmmoBox_empty.et" {
  {
-  coords 3936.957 141.862 201.707
+  coords 3940.883 141.983 199.308
+  angles -0.869 -103.813 0.214
+ }
+ {
+  coords 3942.843 142 187.444
   angles 0 -103.81 0
  }
  {
-  coords 3939.106 141.876 189.669
-  angles 0 -103.81 0
+  coords 3943.223 141.91 174.99
+  angles -0.945 -93.251 -0.843
  }
  {
-  coords 3941.076 141.899 177.444
-  angles 0 -103.81 0
- }
- {
-  coords 3943.07 141.796 164.917
-  angles 0 -103.81 0
+  coords 3943.945 141.794 164.828
+  angles -0.024 -91.57 -0.895
  }
  {
   coords 3945.588 141.84 149.74
-  angles 0 -103.81 0
+  angles -0.214 -103.807 -0.869
  }
 }
