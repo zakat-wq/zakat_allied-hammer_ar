@@ -1,36 +1,49 @@
-SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 2907.334 139.744 4023.608
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 2048.489 142.789 2017.608
  "Map Geometry Data" "{D67B2AE4EE7FADE5}worlds/NovyinovkaGM.topo"
  "Satellite background image" "{52F5A2762AD1F11C}worlds/Novyinovka2DMap.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
 }
-SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 1141.119 33.042 2013.339
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2048.489 142.789 2016.608
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
 }
-PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 1165.557 33.282 2023.461
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2048.489 142.789 2015.608
 }
 LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iStartingMinutes 30
    m_bUsePredefineStartingTimeAndWeather 1
-   m_aStartingWeatherAndTime {
-    SCR_TimeAndWeatherState "{6A5ED80FEA0EB8ED}" {
-     m_sWeatherPresetName "Cloudy"
-     m_iStartingHour 4
-     m_iStartingMinutes 30
-    }
-   }
-   m_bAllowHeaderSettings 1
-   m_bFogOverride 1
-   m_fFogAmount 0.549
-   m_fFogHeightDensity 0.281
-   m_bDateOverride 1
    m_iDay 24
    m_iMonth 7
   }
  }
- coords 1009.84 33.938 2008.562
- m_iFreezeTime 300000
+ coords 2050.06 142.803 2018.22
 }
 $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
  NVAloss {
