@@ -1,0 +1,30 @@
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ flag1 {
+  coords 3176.488 155.204 1042.743
+ }
+ flag2 {
+  coords 2022.071 146.804 2597.706
+  angles 0 -18.188 0
+ }
+ flag3 {
+  coords 1919.131 156.035 2463.27
+  angles 0 -18.188 0
+ }
+ flag4 {
+  coords 2025.513 156.415 2435.879
+  angles 0 5.605 0
+ }
+ flag5 {
+  coords 3355.734 153.532 2931.283
+ }
+ flag6 {
+  coords 3395.972 153.632 2933.275
+ }
+ flag7 {
+  coords 3291.069 146.004 2926.414
+ }
+ flag8 {
+  coords 846.379 155.16 1504.931
+  angles 0 -19.163 0
+ }
+}

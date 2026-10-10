@@ -1,0 +1,149 @@
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 2907.334 139.744 4023.608
+ "Map Geometry Data" "{D67B2AE4EE7FADE5}worlds/NovyinovkaGM.topo"
+ "Satellite background image" "{52F5A2762AD1F11C}worlds/Novyinovka2DMap.edds"
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1141.119 33.042 2013.339
+}
+GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
+ coords 1057.353 198.239 1353.329
+ FogHeightStart entity
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1165.557 33.282 2023.461
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A5ED80FEA0EB8ED}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 4
+     m_iStartingMinutes 30
+    }
+   }
+   m_bAllowHeaderSettings 1
+   m_bFogOverride 1
+   m_fFogAmount 0.549
+   m_fFogHeightDensity 0.281
+   m_bDateOverride 1
+   m_iDay 24
+   m_iMonth 7
+  }
+ }
+ coords 1009.84 33.938 2008.562
+ m_iFreezeTime 300000
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ NVAloss {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Войска ГДР понесли критические потери. Победа ФРГ."
+    m_sFactionKey "NVA"
+    m_iThreshold 7
+   }
+  }
+  coords 1094.877 34.097 2020.548
+ }
+ BWloss {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Войска ФРГ понесли критические потери. Победа ГДР."
+    m_sFactionKey "BW"
+    m_iThreshold 5
+   }
+  }
+  coords 1126.362 33.317 2005.685
+ }
+}
+$grp GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "tower"
+    m_sZoneDisplayName "Вышка связи"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "flag1"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_bStartsNeutral 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 777.698 35.086 2034.574
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "gov"
+    m_sZoneDisplayName "Правительственный квартал"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "flag2"
+     "flag3"
+     "flag4"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_bStartsNeutral 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 785.568 35.086 2033.465
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "scrap"
+    m_sZoneDisplayName "Технический полигон"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "flag8"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 777.342 35.086 2034.302
+ }
+ {
+  components {
+   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "milbase"
+    m_sZoneDisplayName "Военная база"
+    m_sAttackerFaction "NVA"
+    m_sDefenderFaction "BW"
+    m_aFlagNames {
+     "flag5"
+     "flag6"
+     "flag7"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_fCaptureSeconds 120
+   }
+  }
+  coords 765.642 35.086 2030.509
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая триггеры с большей суммой очков."
+   m_iSeconds 4800
+  }
+ }
+ coords 1090.547 36.966 1992.834
+}

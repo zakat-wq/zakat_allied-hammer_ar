@@ -1,0 +1,532 @@
+$grp GenericEntity {
+ {
+  coords 3945.552 141.835 149.414
+  angles 0 -100.322 0
+ }
+ {
+  coords 3942.598 141.803 164.956
+  angles 0 -100.322 0
+ }
+ {
+  coords 3940.472 141.882 177.399
+  angles 0 -100.322 0
+ }
+ {
+  coords 3938.586 141.845 189.109
+  angles 0 -100.322 0
+ }
+ {
+  coords 3936.458 141.842 201.091
+  angles 0 -100.322 0
+ }
+}
+$grp SCR_AIGroup : "{0002F321C0A5B994}Prefabs/Groups/OPFOR/Group_NVA_SAK_Squad.et" {
+ sak1 {
+  components {
+   LL_GroupCallsign "{69CACB7EDC14E0E9}" {
+    m_iCompany 3
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+  }
+  coords 2281.659 140.546 3470.336
+  angles 0 115.24 0
+  m_aUnitPrefabSlots {
+   "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
+   "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
+   "{3A854F1A5C029A8C}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sapper.et"
+   "{210E89B30DC12A59}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Medic.et"
+   "{5408D77B6B2DD566}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sniper.et"
+  }
+ }
+ sak2 {
+  components {
+   LL_GroupCallsign "{69CACB7ECD134292}" {
+    m_iCompany 3
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 2285.234 140.597 3477.656
+  angles 0 118.652 0
+  m_aUnitPrefabSlots {
+   "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
+   "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
+   "{3A854F1A5C029A8C}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sapper.et"
+   "{210E89B30DC12A59}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Medic.et"
+   "{5408D77B6B2DD566}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sniper.et"
+  }
+ }
+ sak3 {
+  components {
+   LL_GroupCallsign "{69CACB7EC3A5E6BB}" {
+    m_iCompany 3
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 2288.824 140.633 3484.422
+  angles 0 122.58 0
+  m_aUnitPrefabSlots {
+   "{14BDD24598BD4C26}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_SL.et"
+   "{5208AFA2B3A19507}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_RTO.et"
+   "{3A854F1A5C029A8C}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sapper.et"
+   "{210E89B30DC12A59}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Medic.et"
+   "{5408D77B6B2DD566}Prefabs/Characters/Factions/OPFOR/NVA/Spezialaufklarerkompanie/Character_SAK_Sniper.et"
+  }
+ }
+}
+Vehicle UAZ469_PKM3 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "nvahq"
+  }
+ }
+ coords 3958.128 141.324 155.744
+ angles 0 -101.58 0
+}
+$grp SCR_AIGroup : "{237F4FDA74067410}Prefabs/Groups/OPFOR/Group_NVA_MSD_Squad_Base.et" {
+ nvas1 {
+  components {
+   LL_GroupCallsign "{69CACB7075997287}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 3939.619 143.46 177.66
+  angles 0 81.13 0
+  m_aUnitPrefabSlots {
+   "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
+   "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
+   "{E1D4F6B8BD6F47F7}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_RTO.et"
+   "{6F02177D8E9C1AC9}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_MG.et"
+   "{B7F0CF3CB144A371}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AMG.et"
+   "{E5BDA0A6995A1076}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AT.et"
+   "{3D4F78E7A682A9CE}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AAT.et"
+   "{807D3D27EF80F51C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Medic.et"
+   "{A8173F4D33D6BA84}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_CC.et"
+   "{FD3F819A87CD8A74}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_Crew.et"
+  }
+ }
+ nvas4 {
+  components {
+   LL_GroupCallsign "{69CACB7EB88240BB}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 0
+   }
+  }
+  coords 3941.742 143.648 165.265
+  angles 0 81.13 0
+  m_aUnitPrefabSlots {
+   "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
+   "{E1D4F6B8BD6F47F7}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_RTO.et"
+   "{E5BDA0A6995A1076}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AT.et"
+   "{3D4F78E7A682A9CE}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AAT.et"
+   "{807D3D27EF80F51C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Medic.et"
+   "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
+   "{6F02177D8E9C1AC9}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_MG.et"
+   "{B7F0CF3CB144A371}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AMG.et"
+   "{31412E2CE8C6960C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Sapper.et"
+   "{5FCCB64DDFE9D9E6}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Sniper.et"
+  }
+ }
+ nvas2 {
+  components {
+   LL_GroupCallsign "{69CACB705ABC0E48}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 3937.735 143.423 189.188
+  angles 0 81.13 0
+  m_aUnitPrefabSlots {
+   "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
+   "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
+   "{E1D4F6B8BD6F47F7}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_RTO.et"
+   "{6F02177D8E9C1AC9}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_MG.et"
+   "{B7F0CF3CB144A371}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AMG.et"
+   "{E5BDA0A6995A1076}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AT.et"
+   "{3D4F78E7A682A9CE}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AAT.et"
+   "{807D3D27EF80F51C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Medic.et"
+   "{A8173F4D33D6BA84}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_CC.et"
+   "{FD3F819A87CD8A74}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_Crew.et"
+  }
+ }
+ nvas3 {
+  components {
+   LL_GroupCallsign "{69CACB704519F017}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 3935.428 143.381 201.25
+  angles 0 81.13 0
+  m_aUnitPrefabSlots {
+   "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
+   "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
+   "{E1D4F6B8BD6F47F7}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_RTO.et"
+   "{6F02177D8E9C1AC9}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_MG.et"
+   "{B7F0CF3CB144A371}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AMG.et"
+   "{E5BDA0A6995A1076}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AT.et"
+   "{3D4F78E7A682A9CE}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AAT.et"
+   "{807D3D27EF80F51C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Medic.et"
+   "{A8173F4D33D6BA84}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_CC.et"
+   "{FD3F819A87CD8A74}Prefabs/Characters/Factions/OPFOR/NVA/Character_NVA_Crew.et"
+  }
+ }
+ nvas6 {
+  components {
+   LL_GroupCallsign "{69CACB7EE976CA89}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 3944.143 143.446 150.393
+  angles 0 81.13 0
+  m_aUnitPrefabSlots {
+   "{509D3878D257AC39}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SL.et"
+   "{E1D4F6B8BD6F47F7}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_RTO.et"
+   "{6F02177D8E9C1AC9}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_MG.et"
+   "{B7F0CF3CB144A371}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AMG.et"
+   "{807D3D27EF80F51C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Medic.et"
+   "{2D85D480B7C490A0}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_SR.et"
+   "{E5BDA0A6995A1076}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AT.et"
+   "{3D4F78E7A682A9CE}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_AAT.et"
+   "{31412E2CE8C6960C}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Sapper.et"
+   "{5FCCB64DDFE9D9E6}Prefabs/Characters/Factions/OPFOR/NVA/Motorisierte Schutzendivision/Character_NVA_MSD_Sniper.et"
+  }
+ }
+}
+$grp Vehicle : "{3B4A2C1ED5DBB0B8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "nvas4"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3946.249 141.781 163.395
+  angles 0 -9.974 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0 0.011 1.356
+   }
+   GenericEntity {
+    ID "6965539FA363C0B6"
+    coords 0 0 0
+   }
+  }
+ }
+ Ural4320_transport_covered2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "nvas6"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3949.034 141.677 146.891
+  angles 0 -9.974 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords -0.001 0.102 1.355
+   }
+   GenericEntity {
+    ID "6965539FA363C0B6"
+    coords -0.001 0 -0.002
+   }
+  }
+ }
+}
+Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{6A5E96AC155F9E96}" {
+   m_sGroupName "nvas6"
+  }
+ }
+ coords 3942.227 141.682 146.277
+ angles 0 81.47 0
+ {
+  GenericEntity {
+   ID "6554E1F2A56526F1"
+   coords 0 -0.004 -0.156
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     coords 0 0 -0.001
+     angles -89.956 -180 180
+    }
+   }
+  }
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "nvas3"
+   }
+  }
+  coords 3940.176 142 197.537
+  angles 0 -9.806 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0 -0.011 1.156
+   }
+   GenericEntity {
+    ID "6951093DB09C3840"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "6951093DBE68531A"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "695343DD9267A081"
+    coords 0 0 0
+   }
+  }
+ }
+ BTR2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "nvas2"
+   }
+  }
+  coords 3942.304 142 185.808
+  angles 0 -9.806 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.001 0 1.157
+   }
+   GenericEntity {
+    ID "6951093DB09C3840"
+    coords -0.001 0 0.001
+   }
+   GenericEntity {
+    ID "6951093DBE68531A"
+    coords -0.001 0 0.001
+   }
+   GenericEntity {
+    ID "695343DD9267A081"
+    coords -0.001 0 0.001
+   }
+  }
+ }
+ BTR3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "nvas1"
+   }
+  }
+  coords 3944.24 141.913 174.379
+  angles 0 -9.806 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords 0 0.018 1.156
+   }
+   GenericEntity {
+    ID "6951093DB09C3840"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "6951093DBE68531A"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "695343DD9267A081"
+    coords 0 0 0
+   }
+  }
+ }
+}
+SCR_AIGroup nvahq : "{E4381BE23CCA6F72}Prefabs/Groups/OPFOR/Group_NVA_MSD_HQ.et" {
+ components {
+  LL_GroupCallsign "{69CACB70C0F4B2F7}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 3953.991 143.415 155.37
+ angles 0 -103.364 0
+}
+$grp GenericEntity : "{EBBC859CCD94D96E}Prefabs/Props/EmptyStorages/USSR_AmmoBox_empty.et" {
+ {
+  coords 3936.957 141.862 201.707
+  angles 0 -103.81 0
+ }
+ {
+  coords 3939.106 141.876 189.669
+  angles 0 -103.81 0
+ }
+ {
+  coords 3941.076 141.899 177.444
+  angles 0 -103.81 0
+ }
+ {
+  coords 3943.07 141.796 164.917
+  angles 0 -103.81 0
+ }
+ {
+  coords 3945.588 141.84 149.74
+  angles 0 -103.81 0
+ }
+}
